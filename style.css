@@ -1,0 +1,104 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+.cabecera{
+	width: 100%;
+	height: 100%;
+	background-color: whitesmoke;
+    display: flex;
+	justify-content: space-between;  	
+}
+
+body{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	flex-direction: column;
+	background-color: lightgrey;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+	
+	
+}
+.feeds{
+	display:flex;		
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	flex-flow: column;
+	height: 40%;
+	width: 40%;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+img {
+	height: 100%;
+	width: 100%;	
+	margin: 5px;
+	align-content: center;
+	justify-content: center;
+	justify-items: center; 
+	}
+.imagen{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.pie-post{
+	margin-top: 10px;
+	justify-content: center;
+	width: 90%;
+}
+
+i{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+}
+.iconohtml{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+i.fa-brands.fa-html5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icono-tres-puntos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+i.fa-solid.fa-ellipsis-vertical {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.texto-cabecera{
+	display: flex;
+	flex-direction: column;
+}
+h4{
+	margin: 1px;
+}
+.rigo{
+	margin: 1px;
+}
+.iconos-pie{
+	
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.iconos-post{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
